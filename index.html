@@ -3,22 +3,152 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Supreme Air Duct Service</title>
-  <!-- This repo root redirects to the live marketing site in /redesign/.
-       (Keeps GitHub Pages "Deploy from a branch" working without showing the README.) -->
-  <meta http-equiv="refresh" content="0; url=./redesign/" />
-  <link rel="canonical" href="./redesign/" />
-  <style>
-    html,body{height:100%;margin:0;background:#fdf7ef;font-family:system-ui,sans-serif;color:#3a2a1e}
-    .c{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:24px}
-    a{color:#c2410c;font-weight:700}
-  </style>
-  <script>location.replace("./redesign/");</script>
+  <title>Supreme Air Duct Service | Air Duct & Dryer Vent Cleaning — Southern California</title>
+  <meta name="description" content="Family-owned air duct & dryer vent cleaning across Southern California. Honest flat-rate pricing, no upselling. Call 888-784-0746 for a free quote." />
+  <meta name="theme-color" content="#2a1c12" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c2410c'/%3E%3Cpath d='M9 20c2-5 5-7 7-7s2 3 4 3 3-2 3-2' stroke='%23fcd9a8' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3Cpath d='M9 24c2-5 5-7 7-7s2 3 4 3 3-2 3-2' stroke='%23f59e0b' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="c">
-    <p>Taking you to Supreme Air Duct Service…</p>
-    <p><a href="./redesign/">Tap here if you aren't redirected</a></p>
-  </div>
+
+  <!-- Header -->
+  <header class="hdr" id="hdr">
+    <div class="wrap hdr__in">
+      <a href="#top" class="brand" aria-label="Supreme Air Duct Service">
+        <svg class="brand__mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="48" rx="12" fill="#c2410c"/>
+          <path d="M11 28c4-9 9-12 13-12s4 5 7 5 5-3 5-3" stroke="#fff5e9" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M11 34c4-9 9-12 13-12s4 5 7 5 5-3 5-3" stroke="#fcd9a8" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M11 22c4-9 9-12 13-12s4 5 7 5 5-3 5-3" stroke="#f59e0b" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="brand__txt">Supreme Air Duct</span>
+      </a>
+      <a href="tel:8887840746" class="btn btn--sm btn--primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="btn__label">Call us</span>
+      </a>
+    </div>
+  </header>
+
+  <span id="top"></span>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero__in">
+      <p class="kicker">Family-owned · Southern California</p>
+      <h1>Cleaner air for a<br>healthier home.</h1>
+      <p class="hero__sub">Professional air duct &amp; dryer vent cleaning with honest, flat-rate pricing — and no upselling.</p>
+      <div class="hero__btns">
+        <a href="#quote" class="btn btn--primary btn--lg">Get a free quote</a>
+        <a href="tel:8887840746" class="btn btn--soft btn--lg">888-784-0746</a>
+      </div>
+      <p class="hero__trust">★★★★★ &nbsp;·&nbsp; BBB A+ Accredited &nbsp;·&nbsp; Rotobrush-certified</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="sec" id="services">
+    <div class="wrap">
+      <h2 class="sec__title">What we clean</h2>
+      <ul class="svc">
+        <li>
+          <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h12a3 3 0 1 0-3-3"/><path d="M3 12h17a3 3 0 1 1-3 3"/><path d="M3 17h9a3 3 0 1 1-3 3"/></svg></span>
+          <div><b>Air Duct Cleaning</b><span>Homes &amp; businesses — clear out dust &amp; allergens.</span></div>
+        </li>
+        <li>
+          <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="13" r="4"/></svg></span>
+          <div><b>Dryer Vent Cleaning</b><span>Remove lint buildup &amp; prevent fire hazards.</span></div>
+        </li>
+        <li>
+          <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18l-1.5 11a2 2 0 0 1-2 1.8H6.5a2 2 0 0 1-2-1.8L3 9z"/><path d="M3 9V6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v3"/></svg></span>
+          <div><b>Kitchen Exhaust Hoods</b><span>NFPA-compliant cleaning for commercial kitchens.</span></div>
+        </li>
+        <li>
+          <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+          <div><b>HVAC Inspection</b><span>Honest, no-pressure assessment of your system.</span></div>
+        </li>
+        <li>
+          <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M11 4v16M15 4v16M19 4v16" opacity=".5"/></svg></span>
+          <div><b>Filter Replacement</b><span>Fresh filters for cleaner air &amp; efficiency.</span></div>
+        </li>
+        <li>
+          <span class="svc__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2v6h6"/><path d="M4 22V4a2 2 0 0 1 2-2h8l6 6v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/></svg></span>
+          <div><b>Duct Replacement</b><span>Replace damaged ducts with sealed, efficient runs.</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Why -->
+  <section class="sec sec--warm" id="why">
+    <div class="wrap">
+      <h2 class="sec__title">Why neighbors choose us</h2>
+      <div class="why">
+        <div class="why__item"><b>Honest flat-rate pricing</b><span>The price we quote is the price you pay — no surprise upsells.</span></div>
+        <div class="why__item"><b>Family-owned &amp; local</b><span>Not a franchise. We know our customers by name.</span></div>
+        <div class="why__item"><b>Certified &amp; trusted</b><span>Rotobrush equipment, NFPA-trained, BBB A+ rated.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section class="sec" id="quote">
+    <div class="wrap quote">
+      <div class="quote__intro">
+        <h2 class="sec__title">Get your free quote</h2>
+        <p>Tell us what you need and we'll get right back to you with honest, flat-rate pricing. Prefer to talk?</p>
+        <a href="tel:8887840746" class="quote__phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          888-784-0746
+        </a>
+        <p class="quote__hours">Mon–Sat · 7 AM – 7 PM · All of Southern California</p>
+      </div>
+
+      <form class="form" id="quoteForm" novalidate>
+        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" required placeholder="Jane Doe" /></div>
+        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required placeholder="(951) 555-0123" /></div>
+        <div class="field"><label for="service">Service</label>
+          <select id="service" name="service">
+            <option>Air Duct Cleaning</option>
+            <option>Dryer Vent Cleaning</option>
+            <option>Kitchen Exhaust Hood</option>
+            <option>HVAC Inspection</option>
+            <option>Filter Replacement</option>
+            <option>Duct Replacement</option>
+            <option>Not sure — need advice</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg btn--block">Request my quote</button>
+        <p class="form__ok" id="formOk">✓ Thanks! We'll reach out shortly. Need it sooner? Call 888-784-0746.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="ftr">
+    <div class="wrap ftr__in">
+      <div>
+        <span class="brand__txt brand__txt--light">Supreme Air Duct Service</span>
+        <p class="ftr__sub">Family-owned air duct &amp; dryer vent cleaning, serving all of Southern California &amp; Las Vegas, NV.</p>
+      </div>
+      <div class="ftr__contact">
+        <a href="tel:8887840746">888-784-0746</a>
+        <a href="mailto:info@supremeairductservice.com">info@supremeairductservice.com</a>
+        <span>Mon–Sat · 7 AM – 7 PM</span>
+      </div>
+    </div>
+    <div class="wrap ftr__bottom">© <span id="year"></span> Supreme Air Duct Service · BBB A+ · Rotobrush-certified</div>
+  </footer>
+
+  <!-- Mobile sticky call bar -->
+  <a href="tel:8887840746" class="callbar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Call 888-784-0746
+  </a>
+
+  <script src="main.js"></script>
 </body>
 </html>

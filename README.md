@@ -11,20 +11,19 @@ optional online booking.
 
 There are **two self-contained versions** so you can pick the right fit:
 
-## 📁 `redesign/` — Modern static site
+## Modern static site — at the repo root
 
-A clean, fast, fully responsive marketing website. **No build step, no
-dependencies** — just open `redesign/index.html`.
+A clean, simple, mobile-first marketing website. **No build step, no
+dependencies** — just open `index.html`. This is what's published to GitHub
+Pages (live at the repo's Pages URL).
 
-- Warm theme matching the original brand
-- All 6 services, "why us," process, 25+ service areas with a live coverage checker
-- Authentic content: BBB A+ accredited, family-owned, Rotobrush/NFPA, air-quality facts
-- Client-side quote form
+- Warm theme matching the original brand (sand · ember · amber · espresso)
+- The 6 services, why-us, and a short quote form
+- BBB A+ accredited, family-owned, Rotobrush/NFPA messaging
+- Sticky one-tap "Call" bar on mobile
 
-Best if they just want a great-looking site to host anywhere (Netlify, GitHub
-Pages, any web host).
-
-➡️ See [`redesign/README.md`](redesign/README.md)
+Files: `index.html`, `styles.css`, `main.js`. Host it anywhere (GitHub Pages,
+Netlify, any web host).
 
 ## 📁 `booking-platform/` — Site + online appointments + admin
 
