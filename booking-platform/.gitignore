@@ -1,0 +1,13 @@
+# Runtime data (real bookings) — don't commit customer data
+data/*.json
+data/*.json.tmp
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Env
+.env
+
+# OS
+.DS_Store
